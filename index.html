@@ -43,10 +43,15 @@ a:focus-visible{outline:1px solid #EDE4D6;outline-offset:4px}
 @media (max-width:640px){
  .mono{width:460px;height:460px;right:-170px;bottom:-120px;opacity:.16}
  .centro{padding:56px 0 48px}
+ h1{font-size:clamp(22px,7.4vw,30px);line-height:1.18}
+ h1 span{white-space:nowrap}
  .texto{font-size:16px}
  .quebra{display:none}
  .acoes{flex-direction:column;align-items:flex-start}
  .botao{width:100%;text-align:center}
+}
+@media (max-width:360px){
+ .texto{font-size:15px}
 }
 </style>
 </head>
@@ -65,7 +70,7 @@ a:focus-visible{outline:1px solid #EDE4D6;outline-offset:4px}
 </header>
 <section class="centro">
 <p class="sobre">MEDICINA DA DOR</p>
-<h1>Tratar a dor é obra divina.<br>Tratar a pessoa, também.</h1>
+<h1><span>Tratar a dor é obra divina.</span><br><span>Tratar a pessoa, também.</span></h1>
 <p class="texto">Procedimentos guiados por ultrassom, medicina regenerativa e<br class="quebra"> acompanhamento contínuo para quem convive com dor crônica.</p>
 <div class="acoes">
 <a class="botao" href="https://wa.me/5561996034626?text=Ol%C3%A1%2C%20Dr.%20Carlos!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">AGENDAR CONSULTA</a>
